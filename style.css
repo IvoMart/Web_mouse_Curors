@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: hsl(228, 30%, 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px solid rgb(170, 9, 9);
+}
+.container div {
+  padding: 3rem;
+  margin: 1rem;
+  background-color: rgba(73, 55, 238, 0.534);
+  width: 40%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.wait {
+  cursor: wait;
+}
+.progress {
+  cursor: url('https://image.freepik.com/vector-gratis/ilustracion-gesto-mano-pantalla-tactil_53876-5607.jpg'),
+    progress;
+}

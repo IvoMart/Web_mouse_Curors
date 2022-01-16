@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: hsl(228, 30%, 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px solid white;
+
+  & div {
+    padding: 3rem;
+    margin: 1rem;
+    background-color: red;
+    width: 40%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.wait {
+  cursor: url('https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562028/cursor_ad12rf.png'),
+    auto;
+}
+.progress {
+  cursor: url('https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562029/cursor-worm_kij6gi.png'),
+    auto;
+}
