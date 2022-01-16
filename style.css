@@ -28,6 +28,5 @@ body {
   cursor: wait;
 }
 .progress {
-  cursor: url('https://image.freepik.com/vector-gratis/ilustracion-gesto-mano-pantalla-tactil_53876-5607.jpg'),
-    progress;
+  cursor: progress;
 }
